@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Projeto de Economia
 
 ## Sobre o projeto
@@ -50,3 +51,6 @@ O projeto foi desenvolvido utilizando o **Visual Studio Code**, utilizando apena
 Este projeto representa uma prática dos conhecimentos adquiridos sobre HTML e desenvolvimento web.
 
 Através da criação de diferentes páginas sobre temas econômicos, foi possível praticar a organização de conteúdos e a criação de uma navegação entre páginas utilizando apenas HTML.
+=======
+# economia-brasil
+>>>>>>> 75b9ac171c1c9a2ff45abd1d89a5fc7ee49b6136
