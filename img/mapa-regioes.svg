@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300">
+  <rect width="600" height="300" fill="#eef6ff" stroke="#333"/>
+  <text x="20" y="30" font-size="20" font-family="sans-serif">Regiões e atividade econômica</text>
+  <circle cx="150" cy="120" r="40" fill="#f4a261"/>
+  <text x="120" y="180" font-size="13">Norte</text>
+  <circle cx="260" cy="90" r="45" fill="#e76f51"/>
+  <text x="235" y="150" font-size="13">Nordeste</text>
+  <circle cx="330" cy="180" r="55" fill="#2a9d8f"/>
+  <text x="300" y="250" font-size="13">Centro-Oeste</text>
+  <circle cx="430" cy="200" r="60" fill="#264653"/>
+  <text x="400" y="270" font-size="13" fill="#fff">Sudeste</text>
+  <circle cx="470" cy="120" r="35" fill="#e9c46a"/>
+  <text x="450" y="90" font-size="13">Sul</text>
+</svg>

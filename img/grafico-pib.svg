@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300">
+  <rect width="600" height="300" fill="#f2f2f2" stroke="#333"/>
+  <text x="20" y="30" font-size="20" font-family="sans-serif">Crescimento do PIB - Brasil</text>
+  <line x1="50" y1="250" x2="550" y2="250" stroke="#333" stroke-width="2"/>
+  <line x1="50" y1="250" x2="50" y2="30" stroke="#333" stroke-width="2"/>
+  <rect x="90" y="180" width="60" height="70" fill="#4a7"/>
+  <text x="95" y="270" font-size="14">2023</text>
+  <rect x="190" y="120" width="60" height="130" fill="#4a7"/>
+  <text x="195" y="270" font-size="14">2024</text>
+  <rect x="290" y="150" width="60" height="100" fill="#4a7"/>
+  <text x="295" y="270" font-size="14">2025</text>
+  <rect x="390" y="170" width="60" height="80" fill="#4a7"/>
+  <text x="395" y="270" font-size="14">2026*</text>
+  <text x="380" y="20" font-size="12" font-family="sans-serif">*projeção</text>
+</svg>

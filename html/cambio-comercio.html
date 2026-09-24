@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Economia do Brasil - Câmbio e Comércio Exterior</title>
+</head>
+<body>
+    <header>
+        <h1>Economia do Brasil em 2026</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="pib-inflacao.html">PIB e Inflação</a></li>
+                <li><a href="mercado-trabalho.html">Mercado de Trabalho</a></li>
+                <li><a href="cambio-comercio.html">Câmbio e Comércio Exterior</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Câmbio e comércio exterior</h2>
+            <p>
+                O <abbr title="dólar americano">dólar</abbr> tem oscilado nas projeções entre
+                R$ 5,20 e R$ 5,50 para o fim de 2026, dependendo do boletim consultado. O câmbio
+                afeta diretamente as exportações e importações do país.
+            </p>
+
+            <p>
+                Em 2026, o Brasil também esteve envolvido em negociações comerciais com os
+                <abbr title="Estados Unidos da América">EUA</abbr> após a aplicação de tarifas
+                adicionais sobre produtos brasileiros, o que trouxe <mark>incerteza extra</mark>
+                para o setor exportador.
+            </p>
+
+            <blockquote cite="https://www.gov.br/fazenda/">
+                <p>"O comércio exterior é um dos termômetros mais sensíveis da economia: qualquer mudança tarifária se reflete rapidamente nos preços e no câmbio."</p>
+            </blockquote>
+
+            <details>
+                <summary>O que é a balança comercial?</summary>
+                <p>
+                    É a diferença entre o que o país exporta e o que importa. Um saldo positivo
+                    (superávit) ocorre quando as exportações superam as importações.
+                </p>
+            </details>
+
+            <details>
+                <summary>Por que o dólar sobe ou desce?</summary>
+                <p>
+                    O câmbio varia conforme a diferença de juros entre países, o fluxo de
+                    investimento estrangeiro, o cenário político e a confiança dos investidores na
+                    economia brasileira.
+                </p>
+            </details>
+        </section>
+
+        <article>
+            <h2>Exportações e importações projetadas</h2>
+            <p>
+                As projeções de mercado para 2026 apontam uma balança comercial ainda favorável ao
+                Brasil, com <ins>crescimento tanto nas exportações quanto nas importações</ins>,
+                embora o ritmo <del>acelerado</del> tenha se tornado mais moderado ao longo do ano.
+            </p>
+
+            <p>Nível de confiança do mercado exportador (estimativa):</p>
+            <meter min="0" max="10" value="6" low="3" high="8" optimum="10">6 de 10</meter>
+
+            <p>Andamento das negociações comerciais com os EUA:</p>
+            <progress value="60" max="100">60%</progress>
+        </article>
+
+        <aside>
+            <h2>Quer receber atualizações?</h2>
+            <p>Deixe seus dados para receber novidades sobre câmbio e comércio exterior.</p>
+
+            <form action="#" method="post">
+                <p>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+                </p>
+
+                <p>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" placeholder="[email protected]" required>
+                </p>
+
+                <p>
+                    <label for="interesse">Área de interesse:</label><br>
+                    <input type="text" id="interesse" name="interesse" list="lista-interesses" placeholder="Ex: câmbio">
+                    <datalist id="lista-interesses">
+                        <option value="Câmbio">
+                        <option value="Exportações">
+                        <option value="Importações">
+                        <option value="Tarifas comerciais">
+                    </datalist>
+                </p>
+
+                <p>
+                    <label for="data-inicio">Acompanha o tema desde quando?</label><br>
+                    <input type="date" id="data-inicio" name="data-inicio">
+                </p>
+
+                <p>
+                    <label for="frequencia">Frequência desejada de atualizações (0 = raras, 10 = diárias):</label><br>
+                    <input type="range" id="frequencia" name="frequencia" min="0" max="10" step="1" value="5">
+                </p>
+
+                <p>
+                    <button type="submit">Cadastrar</button>
+                </p>
+            </form>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Fonte: Boletim Focus (Banco Central) e reportagens de economia - 2026.</p>
+    </footer>
